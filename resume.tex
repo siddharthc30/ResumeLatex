@@ -1,9 +1,11 @@
+
 %-------------------------
 % Resume in Latex
 % Author : Jake Gutierrez
 % Based off of: https://github.com/sb2nov/resume
 % License : MIT
 %------------------------
+
 
 \documentclass[letterpaper,11pt]{article}
 
@@ -144,12 +146,12 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Associate AI Engineer}{Nov 2025 -- Mar. 2026}
+      {Associate AI Engineer}{Nov 2025 -- Present}
       {Midwest Partners LLC}{Remote}
       \resumeItemListStart
-        \resumeItem{Built a competitor price tracking pipeline using n8n, SerpAPI (Google Hotels API), and Supabase Postgres to monitor rates across multiple hotels at regular intervals in real time.}
-        \resumeItem{Designed a scheduling + alerting workflow that detects when the client's pricing exceeds competitors and fires Slack/email notifications directly tied to Google metasearch ranking signals.}
-        \resumeItem{Integrated Google Places API for review monitoring and sentiment tracking across Google, TripAdvisor, and OTA platforms.}
+        \resumeItem{Built an end-to-end competitor price tracking data pipeline using n8n, SerpAPI (Google Hotels API), and Supabase Postgres, applying SQL-based data models to monitor rates across multiple hotels in real time and surface cost-strategy insights for the client.}
+        \resumeItem{Designed a scheduling and alerting workflow that automates business-process monitoring — detecting when the client's pricing exceeds competitors and firing Slack/email notifications tied to Google metasearch ranking signals; Delivering actionable recommendations to enhance pricing decisions.}
+        \resumeItem{Integrated Google Places API for review monitoring and sentiment tracking across Google, TripAdvisor, and OTA platforms,feeding structured signals into business intelligence dashboards to support data-driven decision-making.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -157,7 +159,7 @@
       {University at Buffalo | Co-authored a \href{https://arxiv.org/abs/2505.20324}{\textbf{\underline{paper}}} on this study, accepted at FLLM 2025}{Buffalo, New York}
       \resumeItemListStart
         \resumeItem{Designed a large-scale evaluation of 20 frontier LLMs (GPT-4o, Claude 3.5 Sonnet, DeepSeek-v3, Gemini, Llama, Grok) across 878 coding tasks with 100+ test cases each, using OpenAI, Anthropic, Google Vertex AI, and AWS Bedrock APIs with batch inference and iterative prompt-feedback loops that lifted Pass@25 score from 51\% to 92\%}
-        \resumeItem{Built an automated LLM-as-evaluator pipeline with 25-iteration regeneration on execution errors; analysis revealed DeepSeek-v3 and GPT-4o generate the most efficient code, while Gemini-1.5-Pro produces solutions up to 450× less efficient on Dynamic Programming and Backtracking tasks.}
+        \resumeItem{Built an automated LLM-as-evaluator pipeline with 25-iteration regeneration on execution errors; analysis revealed DeepSeek-v3 and GPT-4o generate the most efficient code, while Gemini-1.5-Pro produces solutions up to 450x less efficient on Dynamic Programming and Backtracking tasks.}
         \resumeItem{Optimized GPT-2 for text summarization via knowledge distillation, 8-bit quantization, and structured pruning, cutting inference energy 30\% while retaining 95\%+ of baseline ROUGE quality.}
       \resumeItemListEnd
 
@@ -165,7 +167,7 @@
       {Software Engineer}{Aug. 2024 -- Dec. 2024}
       {Kaleida Health}{Buffalo, New York}
       \resumeItemListStart
-        \resumeItem{Architected a scalable Microservices Architecture for a full-stack healthcare platform using Java, Spring Boot and React, deploying to AWS infrastructure to ensure high availability for hospital operations.}
+        \resumeItem{Architected an end-to-end scalable Microservices Architecture for a full-stack healthcare platform using Java, Spring Boot and React, deploying to AWS infrastructure to ensure high availability for hospital operations.}
         \resumeItem{Built a real-time WebSocket messaging microservice with 1:1 and group chat across care teams and bidirectional auto-translation via Google Translate API; secured all endpoints with JWT, HTTPS, and RBAC across patient, family, doctor, and admin roles.}
         \resumeItem{Implemented patient-delegated access for family members to view shared diagnoses under role-based policies and drove backend SDLC across the team to ship the stakeholder-demoed platform.}
       \resumeItemListEnd
@@ -179,14 +181,14 @@
       \resumeProjectHeading
           {\textbf{Plant Disease Detection with Chatbot Support} $|$ \emph{Python, PyTorch, LangChain, Gradio}}{\href{https://github.com/siddharthc30/Early-Plant-Disease-Detection}{\underline{GitHub}} $|$ 2024}
           \resumeItemListStart
-            \resumeItem{Developed an AI system utilizing advanced computer vision techniques and fine tuned a VGG model to rapidly identify early-stage plant diseases through detailed leaf image analysis achieving a 92\% accuracy.}
-            \resumeItem{Integrated OpenAI's DaVinci LLM via LangChain to generate context-aware plant management advice for effective plant management and disease prevention strategies.}
+            \resumeItem{Developed an end-to-end AI system applying computer vision and machine learning techniques, fine-tuning a VGG predictive model in PyTorch to identify early-stage plant diseases from leaf imagery with 92\% accuracy.}
+            \resumeItem{Integrated OpenAI's DaVinci LLM via LangChain through rapid prototyping to deliver context-aware, actionable plant management recommendations and disease prevention strategies for end users.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{Review Analyzer} $|$ \emph{Python, Flask, Azure Cognitive Services, REST API}}{\href{https://github.com/siddharthc30/ReviewGenie}{\underline{GitHub}} $|$ 2023}
           \resumeItemListStart
-            \resumeItem{Engineered an ML-driven decision-support tool to analyze reviews and extract sentiment patterns for Amazon purchasing choices.}
-            \resumeItem{Built a full-stack Flask application integrating Azure Cognitive Services, structured JSON APIs, and secure cloud-based inference endpoints.}
+            \resumeItem{Engineered a data science–driven decision-support tool that analyzes customer reviews and extracts sentiment patterns to power business intelligence around Amazon purchasing choices.}
+            \resumeItem{Built a full-stack Flask and Streamlit application in Python integrating Azure Cognitive Services, structured JSON APIs, and secure cloud-based inference endpoints, with quality assurance checks to validate model outputs and data integrity.}
           \resumeItemListEnd
     \resumeSubHeadingListEnd
 
